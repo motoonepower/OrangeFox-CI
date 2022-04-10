@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_9.0"
+export FOX_BRANCH="fox_10.0"
 export DT_LINK="https://github.com/TeamWin/android_device_motorola_chef"
 
 export DEVICE="chef"
@@ -17,7 +17,8 @@ export OUTPUT="OrangeFox*.zip"
 
 # Extra Command
 export EXTRA_CMD="git clone https://github.com/TeamWin/android_hardware_qcom_bootctrl -b android-9.0 hardware/qcom/bootctrl"
-
+export OF_AB_DEVICE=1
+export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
 export USE_CCACHE=1
