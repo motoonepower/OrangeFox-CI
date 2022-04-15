@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://github.com/motoonepower/android_device_motorola_chef -b 9t"
+export DT_LINK="https://github.com/motoonepower/android_device_motorola_chef -b 9tt"
 
 export DEVICE="chef"
 export OEM="motorola"
