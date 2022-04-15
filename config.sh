@@ -4,7 +4,7 @@
 export FOX_BRANCH="fox_10.0"
 export DT_LINK="https://github.com/motoonepower/twrp -b stock"
 
-export DEVICE="chef"
+export DEVICE="chef_sprout"
 export OEM="motorola"
 export TARGET="recoveryimage"
 
