@@ -16,7 +16,7 @@ export OUTPUT="OrangeFox*.zip"
 #export PLATFORM="sm6150" # Leave it commented if you want to clone the kernel to kernel/$OEM/$DEVICE
 
 # Extra Command
-export EXTRA_CMD="git clone https://github.com/TeamWin/android_hardware_qcom_bootctrl -b android-9.0 hardware/qcom/bootctrl"
+export EXTRA_CMD="git clone https://github.com/TeamWin/android_hardware_qcom_bootctrl -b android-10.0 hardware/qcom/bootctrl"
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
 export USE_CCACHE=1
