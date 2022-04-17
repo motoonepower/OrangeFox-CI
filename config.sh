@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_10.0"
-export DT_LINK="https://github.com/motochef/chef_twrp -b main"
+export DT_LINK="https://github.com/motochef/chef_twrp.git"
 
 export DEVICE="chef"
 export OEM="motorola"
