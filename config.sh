@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://github.com/motoonepower/android_device_motorola_chef -b 9t"
+export FOX_BRANCH="fox_10.0"
+export DT_LINK="https://github.com/motochef/chef_twrp -b main"
 
 export DEVICE="chef"
 export OEM="motorola"
@@ -16,7 +16,7 @@ export OUTPUT="OrangeFox*.zip"
 #export PLATFORM="sm6150" # Leave it commented if you want to clone the kernel to kernel/$OEM/$DEVICE
 
 # Extra Command
-export EXTRA_CMD="git clone https://github.com/TeamWin/android_hardware_qcom_bootctrl -b android-9.0 hardware/qcom/bootctrl"
+export EXTRA_CMD="git clone https://github.com/TeamWin/android_hardware_qcom_bootctrl -b android-10.0 hardware/qcom/bootctrl"
 export OF_AB_DEVICE=1
 export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 # Not Recommended to Change
