@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Device
+# Devic
 export FOX_BRANCH="fox_10.0"
 export DT_LINK="https://github.com/motochef/chef_twrp.git"
 
