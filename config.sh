@@ -6,7 +6,7 @@ export DT_LINK="https://github.com/TeamWin/android_device_motorola_chef"
 
 export DEVICE="chef"
 export OEM="motorola"
-export TARGET="bootimage"
+export TARGET="recoveryimage"
 
 export OUTPUT="OrangeFox*.zip"
 
