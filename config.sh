@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Devic
-export FOX_BRANCH="fox_11.0"
+export FOX_BRANCH="fox_10.0"
 export DT_LINK="https://github.com/rushiranpise/android_device_motorola_chef_twrp -b retrofit"
 
 export DEVICE="chef"
